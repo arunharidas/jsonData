@@ -81,5 +81,19 @@
             "type" : "Image",
             "mandatory": true
         }
-    ]
+    ],
+    "PPEChecklistBatch":{
+        "id":1245,
+        "status":"approval-pending",
+        "submittedAt":"21-12-2018 17:01:33",
+        "approvedBy":null,
+        "approvedAt":null
+    },
+    "PPEChecklistBatchApproved":{
+        "id":1246,
+        "status":"approved",
+        "submittedAt":"21-12-2018 17:05:33",
+        "approvedBy":"John T",
+        "approvedAt":"21-12-2018 17:06:33"
+    }
 }
