@@ -11,5 +11,49 @@
             {"name":"Sub Activity1", "id":220, "status":"not-started"}
         ]
     }
+    ],
+    "PPEChecklist":[
+        {
+            "id":1001,
+            "name": "Safety Goggles",
+            "type" : "Boolean",
+            "mandatory": true
+        },
+        {
+            "id":1002,
+            "name": "Boots",
+            "type" : "Boolean",
+            "mandatory": true
+        },
+        {
+            "id":1003,
+            "name": "Gloves",
+            "type" : "Boolean",
+            "mandatory": true
+        },
+        {
+            "id":1004,
+            "name": "Digital Watch",
+            "type" : "Boolean",
+            "mandatory": false
+        },
+        {
+            "id":1005,
+            "name": "Image 1",
+            "type" : "Image",
+            "mandatory": true
+        },
+        {
+            "id":1006,
+            "name": "Image 2",
+            "type" : "Image",
+            "mandatory": true
+        },
+        {
+            "id":1007,
+            "name": "Image 4",
+            "type" : "Image",
+            "mandatory": true
+        }
     ]
 }
