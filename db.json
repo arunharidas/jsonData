@@ -1,32 +1,43 @@
 {
-    "Stage":[
+    "Stages":[
      {   
         "name":"Google Stage",
         "id": 2311,
         "completed": 2,
-        "totalActivities": 5,
-        "data":[
-            {"name":"Sub Activity1", "id":2201, "status":"completed"},
-            {"name":"Sub Activity2", "id":2202, "status":"completed"},
-            {"name":"Sub Activity3", "id":2203, "status":"paused"},
-            {"name":"Sub Activity4", "id":2204, "status":"not-started"},
-            {"name":"Sub Activity5", "id":2205, "status":"not-started"}
-        ]
+        "totalActivities": 5
     },
     {   
         "name":"Yahoo Stage",
         "id": 2400,
         "completed": 0,
-        "totalActivities": 5,
-        "data":[
-            {"name":"Yahoo Activity1", "id":225, "status":"not-started"},
-            {"name":"Yahoo Activity2", "id":224, "status":"not-started"},
-            {"name":"Yahoo Activity3", "id":223, "status":"not-started"},
-            {"name":"Yahoo Activity4", "id":222, "status":"not-started"},
-            {"name":"Yahoo Activity5", "id":221, "status":"not-started"}
-        ]
+        "totalActivities": 5
+        
     }
     ],
+    "Stage":[
+        {   
+           "name":"Google Stage",
+           "id": 2311,
+           "data":[
+               {"name":"Sub Activity1", "id":2201, "status":"completed"},
+               {"name":"Sub Activity2", "id":2202, "status":"completed"},
+               {"name":"Sub Activity3", "id":2203, "status":"paused"},
+               {"name":"Sub Activity4", "id":2204, "status":"not-started"},
+               {"name":"Sub Activity5", "id":2205, "status":"not-started"}
+           ]
+       },
+       {   
+           "name":"Yahoo Stage",
+           "id": 2400,
+           "data":[
+               {"name":"Yahoo Activity1", "id":225, "status":"not-started"},
+               {"name":"Yahoo Activity2", "id":224, "status":"not-started"},
+               {"name":"Yahoo Activity3", "id":223, "status":"not-started"},
+               {"name":"Yahoo Activity4", "id":222, "status":"not-started"},
+               {"name":"Yahoo Activity5", "id":221, "status":"not-started"}
+           ]
+       }
+       ],
     "PPEChecklist":[
         {
             "id":1001,
